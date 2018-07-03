@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:rick_and_morty/models.dart';
 
-import 'DetailsPage.dart';
+import 'details_page.dart';
 
 void main() {
   runApp(new GridViewApp());
