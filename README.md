@@ -1,0 +1,8 @@
+# rick_and_morty
+
+Rick and Morty Flutter app that displays Rick and Morty series trivia and other information.
+
+## Getting Started
+
+For help getting started with Flutter, view our online
+[documentation](https://flutter.io/).
