@@ -1,11 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:rick_and_morty/models.dart';
+import 'package:rick_and_morty/models/character.dart';
 
 import 'details_page.dart';
 
 void main() {
   runApp(new GridViewApp());
 }
+
+var characterList = [
+  Character(
+      id: 1,
+      name: "Rick",
+      species: "Human",
+      image: "test_url",
+      planet: "Earth"),
+];
 
 class CharacterListTile extends StatelessWidget {
   final int _index;
